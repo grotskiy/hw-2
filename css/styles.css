@@ -8,6 +8,7 @@
   --accent-color-back: #2f303a;
   --accent-color-cont: rgba(255, 255, 255, 0.6);
   --accent-color-logo: #000000;
+  --accent-color-team: #F5F4FA;
   --btn-hover: #188ce8;
 }
 
@@ -164,6 +165,10 @@ body {
 
 /* ============ TEAM ============ */
 
+.team { 
+  background-color: var(--accent-color-team);
+}
+
 .team-title {
   text-align: center;
   font-family: var(--main-font);
@@ -211,6 +216,7 @@ body {
 
 .location {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -220,6 +226,7 @@ body {
 
 .footer-mail {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -234,6 +241,7 @@ body {
 
 .footer-tel {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
