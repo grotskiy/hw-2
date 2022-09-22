@@ -72,10 +72,6 @@ body {
   color: var(--accent-color);
 }
 
-.mail-link.current {
-  color: var(--accent-color);
-}
-
 .tel-link {
   font-family: var(--main-font);
   font-weight: 500;
